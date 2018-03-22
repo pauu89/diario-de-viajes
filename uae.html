@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fotografia emirates</title>
+
+	<link rel="stylesheet" type="text/css" href="uae.css">
+	<script src="uae.js" "></script>
+
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script src="modernizr-custom.js"></script>
+</head>
+<body>
+	<div class="grid">
+		<header> <h1>Mi diario de viajes</h1>
+
+			<nav id="logo-menu"><img id="logo" src="logo-marca.png">
+           </nav>
+		</header>
+
+	<article>
+		<div class="contenedor">
+			<div class="imagen actual">
+				<img src="img/desert.jpg">
+				<div class="texto">desierto sharjah</div>
+
+			</div>
+				<div class="imagen">
+				<img src="img/bur-dubai.jpg">
+				<div class="texto">Bur Dubai</div>
+
+			</div>
+				<div class="imagen">
+				<img src="img/etihad.jpg">
+				<div class="texto">vista desde Etihad tower</div>
+
+			</div>
+				<div class="imagen">
+				<img src="img/palace.jpg">
+				<div class="texto">palace downtown</div>
+
+			</div>
+
+
+				<a href="#" class="anterior" onclick="anterior();">&#10094;
+				</a>
+				<a href="#" class="siguiente" onclick="siguiente();">&#10095;</a>
+			<div class="puntos">
+				
+				<span class="punto activo" onclick="mostrar(0);"></span>
+				<span class="punto" onclick="mostrar(1);"></span>
+				<span class="punto" onclick="mostrar(2);"></span>
+				<span class="punto" onclick="mostrar(3);"></span>
+			</div>	
+			<div class="boton"><a href="#"><img src="img/pause.png" id="btn" onclick="playpause();"></a></div>
+		</div>
+
+</article>
+
+
+	<aside class="sidebar-right">
+			<h2>
+<div id="bar-menu">
+	<ul>
+   		<li class="menu-item"><a href="grid.html">Inicio</a></li>
+		<li class="menu-item"><a href="aboutme.html">Sobre mi</a></li>
+    	<li class="menu-item"><a href="#">Posteos</a>
+			<ul class="sub">
+				<li><a href="posts.html">ultimos posteos</a></li>
+			</ul>
+    	</li>
+    	<li class="menu-item"><a href="#">Datos utiles</a>
+	    	<ul class="sub">
+				<li><a href="baratos.html">pasajes baratos</a></li>
+				<li><a href="visas.html">visas</a></li>
+				<li><a href="#">conversion de moneda</a></li>
+				<li><a href="#">donde ir de vacaciones</a></li>
+			</ul>
+    	</li>
+    	<li class="menu-item">
+    		<a href="#">fotografia</a>
+    		<ul class="sub">
+		    	<li><a href="#">San francisco</a></li>
+		    	<li><a href="#">Los Roques</a></li>
+		    	<li><a href="#">San Andres</a></li>
+		    	<li><a href="#">Brasil</a></li>
+		    	<li><a href="uae.html">Dubai, Abu Dhabi, Musandam(Oman)</a></li>
+			</ul>
+		</li>
+	</ul></h2>
+</div>	
+
+	</aside>
+
+		<footer><a href="https://outlook.live.com"><img id="icon" src="icon-17.png"></a></footer>
+	</div>
+
+
+
+
+
+</body>
+</html>
